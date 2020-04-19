@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url("../images/moody-plant.jpeg");
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.name-header {
+    color: white;
+    border: 5px solid white;
+    text-align: center;
+    font-size: 130px;
+    margin: 20px 140px 50px 140px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    box-shadow: 3px 3px 8px lightgrey;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-item {
+    margin: 0px 50px 0px 50px;
+}
+
+
