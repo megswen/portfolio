@@ -2,6 +2,7 @@
     background-image: url("../images/moody-plant.jpeg");
     border-radius: 0px;
     margin-bottom: 0px;
+    height: 400px;
 }
 
 .name-header {
@@ -9,22 +10,49 @@
     border: 5px solid white;
     text-align: center;
     font-size: 130px;
-    margin: 20px 140px 50px 140px;
+    margin: 45px 140px 45px 140px;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar {
-    background-color: black;
-    box-shadow: 3px 3px 8px lightgrey;
+    background-color: white;
+    margin-bottom: 60px;
 }
 
-.navbar-nav {
-    margin: auto;
+.page-header {
+    background-color: rgb(39, 39, 39);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    float: none;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: -150px;
+    font-size: 90px;
+    display: flex;
+    padding: 75px;
 }
 
-.nav-item {
-    margin: 0px 50px 0px 50px;
+.page-box {
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    z-index: -1;
+    height: 800px;
+}
+
+.text-box {
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    padding: 200px 100px 100px 100px;
 }
 
 
+
+
+
+.footer {
+    background-color: rgb(37, 37, 37);
+    height: 40px;
+    color: white;
+}
