@@ -18,41 +18,75 @@
 .navbar {
     background-color: white;
     margin-bottom: 60px;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+.navbar-items {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.search-items {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.search-btn {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.search-btn:active,
+.search-btn:focus,
+.search-btn:focus:active {
+    box-shadow: none;
 }
 
 .page-header {
     background-color: rgb(39, 39, 39);
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     float: none;
     margin: 0 auto;
     color: white;
-    margin-bottom: -150px;
-    font-size: 90px;
+    margin-bottom: -100px;
+    font-size: 45px;
     display: flex;
-    padding: 75px;
+    padding: 63px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .page-box {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(243, 243, 243);
     position: relative;
     z-index: -1;
-    height: 800px;
+    height: 600px;
+    box-shadow: 15px -15px 0px rgb(235, 94, 51);
+    /* rgb(1, 63, 63); */
 }
 
 .text-box {
     color: rgb(39, 39, 39);
     font-size: 20px;
-    padding: 200px 100px 100px 100px;
+    padding: 170px 100px 100px 100px;
+    font-family: 'Yantramanav', sans-serif;
 }
 
-
-
-
-
 .footer {
-    background-color: rgb(37, 37, 37);
-    height: 40px;
+    height: 60px;
     color: white;
+    margin-top: 70px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0px -2px 5px lightgray;
+}
+
+.fa {
+    color: white;
+    padding: 5px;
+    bottom: 20px;
 }
