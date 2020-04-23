@@ -5,14 +5,28 @@
     height: 400px;
 }
 
+.header-box {
+    border: 12px double white;
+    margin: 20px 140px 45px 140px;
+}
+
 .name-header {
     color: white;
-    border: 5px solid white;
     text-align: center;
     font-size: 130px;
-    margin: 45px 140px 45px 140px;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title-header {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: -30px;
+    font-family: 'Yantramanav', sans-serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
 }
 
 .navbar {
@@ -40,6 +54,12 @@
     padding: 5px;
 }
 
+.search-bar:active,
+.search-bar:focus,
+.search-bar:focus:active {
+    box-shadow: none;
+}
+
 .search-btn:active,
 .search-btn:focus,
 .search-btn:focus:active {
@@ -59,15 +79,27 @@
     display: flex;
     padding: 63px;
     font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.home-page-header {
+    font-size: 35px;
+    padding-top: 73px;
+}
+
+.portfolio-page-header {
+    font-size: 35px;
+    padding-top: 73px;
 }
 
 .page-box {
     background-color: rgb(243, 243, 243);
     position: relative;
     z-index: -1;
-    height: 600px;
-    box-shadow: 15px -15px 0px rgb(235, 94, 51);
-    /* rgb(1, 63, 63); */
+    box-shadow: 15px -15px 0px rgb(194, 164, 164);
+    /* rgb(1, 63, 63); green */
+    /* rgb(235, 94, 51); coral */
+    /* rgb(187, 163, 27); gold */
 }
 
 .text-box {
@@ -77,6 +109,103 @@
     font-family: 'Yantramanav', sans-serif;
 }
 
+.about-img {
+    width: 280px;
+    display: inline;
+    float: left;
+    margin-right: 50px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.about-p {
+    display: inline;
+}
+
+.portfolio-card {
+    margin: 20px 20px 40px 20px;
+    box-shadow: 3px 3px 5px grey;
+    cursor: pointer;
+}
+
+.card-img:hover {
+    filter: grayscale(100%);
+    filter: blur(8px);
+}
+  
+.portfolio-card-title {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    background: rgb(39, 39, 39, 0.5);
+    padding: 10px 20px 10px 40px;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    width: 19rem;
+    height: 40px;
+}
+
+.form-control {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.contact-btn {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin: 30px;
+}
+
+.contact-box {
+    background-color: rgb(194, 164, 164);
+    width: 260px;
+    height: 400px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.contact-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(39, 39, 39);
+    margin: 5px;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.contact-info {
+    font-family: 'Yantramanav', sans-serif;
+    color: white;
+    margin: 5px;
+    margin-top: -10px;
+}
+
+.fa-contact {
+    color: rgb(39, 39, 39);
+    padding: 5px;
+    width: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     height: 60px;
     color: white;
@@ -85,7 +214,7 @@
     box-shadow: 0px -2px 5px lightgray;
 }
 
-.fa {
+.fa-footer {
     color: white;
     padding: 5px;
     bottom: 20px;
