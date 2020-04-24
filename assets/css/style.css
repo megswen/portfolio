@@ -38,12 +38,8 @@ body, html {
     font-weight: lighter;
 }
 
-.hp-profile-img {
-    background-image: url("../images/about-image.jpg");
-    border-radius: 50%;
-    height: 350px;
-    width: 350px;
-    margin: auto;
+.hp-profile-img:hover {
+    filter: grayscale(100%);
 }
 
 .hp-right-box {
@@ -71,24 +67,14 @@ body, html {
     background-color: rgb(194, 164, 164);
     color: white;
     font-family: 'Yantramanav', sans-serif;
+    border-radius: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hp-button:active,
+.hp-button:focus,
+.hp-button:focus:active {
+    box-shadow: none;
+}
 
 /* Jumbotron */
 .jumbotron {
@@ -127,6 +113,7 @@ body, html {
     background-color: white;
     margin-bottom: 60px;
     box-shadow: 0px 2px 5px lightgray;
+    position: sticky;
 }
 
 .navbar-items {
@@ -139,26 +126,14 @@ body, html {
     font-family: 'Yantramanav', sans-serif;
 }
 
-.search-items {
+.resume-button {
+    background-color: rgb(194, 164, 164);
+    color: white;
     font-family: 'Yantramanav', sans-serif;
-}
-
-.search-btn {
-    cursor: pointer;
-    padding: 5px;
-}
-
-.search-bar:active,
-.search-bar:focus,
-.search-bar:focus:active {
-    box-shadow: none;
-    border-color: rgb(194, 164, 164);
-}
-
-.search-btn:active,
-.search-btn:focus,
-.search-btn:focus:active {
-    box-shadow: none;
+    float: right;
+    margin-right: 0px;
+    box-shadow: 1px 1px 5px grey;
+    float: right;
 }
 
 /* Page header and page container */
@@ -225,14 +200,13 @@ body, html {
     cursor: pointer;
 }
 
-.card-img:hover {
+.portfolio-card:hover {
     filter: grayscale(100%);
-    filter: blur(8px);
 }
   
 .portfolio-card-title {
     position: absolute;
-    bottom: 50px;
+    bottom: 5px;
     z-index: 1;
     background: rgb(39, 39, 39, 0.5);
     padding: 10px 20px 10px 40px;
@@ -240,10 +214,11 @@ body, html {
     text-align: center;
     padding: 10px 15px 10px 15px;
     width: 19rem;
-    height: 40px;
+    height: 45px;
 }
 
 /* Contact page */
+
 .contact-form-box {
     margin-top: -5px;
 }
@@ -284,9 +259,6 @@ body, html {
     width: 30px;
     margin-top: 30px;
 }
-
-
-
 
 /* Footer */
 .footer {
